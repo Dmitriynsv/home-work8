@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@400;700;900&display=swap');
-@import '_root.css';
-@import '_basic.css';
+@import 'root.css';
+@import 'basic.css';
 @import 'about.css';
 @import 'components/button.css';

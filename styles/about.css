@@ -1,0 +1,161 @@
+.about {
+  width: 100%;
+  background: url("../assets/bg_about.jpg") center/cover no-repeat;
+  padding-bottom: 120px;
+}
+
+.header {
+  max-width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-grey);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  padding-bottom: 30px;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  margin: 0;
+}
+
+.header__nav-item {
+  margin: 0 25px;
+  position: relative;
+  line-height: 100px;
+}
+
+.header__nav-link::after {
+  content: "";
+  position: absolute;
+  left: -20px;
+  bottom: 0;
+  right: 80%;
+  height: 2px;
+  background-color: var(--color-grey);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.header__nav-link:hover::after {
+  opacity: 1;
+  right: -20px;
+}
+
+.header__nav-link {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.header__nav-link:active {
+  color: var(--color-coral);
+}
+.header__nav-link:active::after {
+  background-color: var(--color-coral);
+}
+
+.about__content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__title {
+  margin-top: 130px;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.about__description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--color-white);
+  text-align: center;
+  margin-top: 130px;
+  margin-bottom: 140px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.features {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1170px;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  row-gap: 75px;
+}
+.work {
+  max-width: 1701px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work_1,
+.work_2,
+.work_3,
+.work_4,
+.work_5,
+.work_6,
+.work_7,
+.work_8 {
+  width: 274px;
+  height: 340px;
+  margin: 0;
+}
+.our_team {
+  max-width: 1701px;
+  height: 620px;
+  color: black;
+}
+.person {
+  max-width: 1170px;
+  margin: 110px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.person_card {
+  width: 270px;
+  margin: ;
+  display: flex;
+  justify-content: center;
+  column-gap: 90px;
+  flex-wrap: wrap;
+  row-gap: 75px;
+}
+.person_card_1 {
+  margin: 0;
+}
+.person_card_1-img {
+}
+.name_card-name {
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.name_person {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-red);
+}
+.about_card {
+  margin: 0 auto;
+}

@@ -132,7 +132,6 @@
   width: 270px;
   margin: ;
   display: flex;
-  justify-content: center;
   column-gap: 90px;
   flex-wrap: wrap;
   row-gap: 75px;
@@ -158,4 +157,15 @@
 }
 .about_card {
   margin: 0 auto;
+}
+.net{
+width: 270px;
+display: flex;
+justify-content: flex-start;
+gap: 2px;
+}
+.icon{
+  width: 39px;
+  height: 39px;
+cursor: pointer;
 }

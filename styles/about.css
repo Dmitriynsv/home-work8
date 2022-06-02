@@ -130,7 +130,6 @@
 }
 .person_card {
   width: 270px;
-  margin: ;
   display: flex;
   column-gap: 90px;
   flex-wrap: wrap;
@@ -158,14 +157,15 @@
 .about_card {
   margin: 0 auto;
 }
-.net{
-width: 270px;
-display: flex;
-justify-content: flex-start;
-gap: 2px;
+.net {
+  width: 270px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
 }
-.icon{
+.icon {
   width: 39px;
   height: 39px;
-cursor: pointer;
+  cursor: pointer;
 }
+

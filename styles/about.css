@@ -130,6 +130,7 @@
 }
 .person_card {
   width: 270px;
+  margin: 1em;
   display: flex;
   column-gap: 90px;
   flex-wrap: wrap;

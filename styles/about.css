@@ -162,10 +162,15 @@
   display: flex;
   justify-content: flex-start;
   gap: 2px;
+  fill: white;
 }
 .icon {
   width: 39px;
   height: 39px;
   cursor: pointer;
 }
+.icon:hover{
+  fill: rgb(249, 239, 228);
+}
+
 

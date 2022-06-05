@@ -1,5 +1,5 @@
 .about {
-  width: 100%;
+  width: 1510px;
   background: url("../assets/bg_about.jpg") center/cover no-repeat;
   padding-bottom: 120px;
 }
@@ -91,16 +91,16 @@
 }
 
 .features {
+  max-width: 1171px;
   margin: 40px auto;
   display: flex;
   justify-content: center;
-  max-width: 1170px;
   column-gap: 10px;
   flex-wrap: wrap;
   row-gap: 75px;
 }
 .work {
-  max-width: 1701px;
+  max-width: 1510px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -113,33 +113,30 @@
 .work_6,
 .work_7,
 .work_8 {
-  width: 290px;
+  width: 355px;
   height: 340px;
   margin: 0;
 }
-.our_team {
-  max-width: 1701px;
-  height: 620px;
-  color: black;
-}
-.person {
-  max-width: 1170px;
-  margin: 110px auto;
+
+.team {
+  max-width: 1171px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 111px;
+  padding-bottom: 111px;
+  padding-left: 10px;
 }
+
 .person_card {
-  width: 270px;
-  margin: 1em;
+  width: 250px;
+  color: var(--color-black);
   display: flex;
   column-gap: 90px;
   flex-wrap: wrap;
   row-gap: 75px;
-}
-.person_card_1 {
-  margin: 0;
-}
-.person_card_1-img {
+  margin: 1em;
 }
 .name_card-name {
   margin: 0 auto;
@@ -155,23 +152,159 @@
   line-height: 21px;
   color: var(--color-red);
 }
-.about_card {
-  margin: 0 auto;
-}
+
 .net {
-  width: 270px;
+  width: 120px;
   display: flex;
   justify-content: flex-start;
   gap: 2px;
-  fill: white;
+  fill: var(--color-white);
 }
 .icon {
   width: 39px;
   height: 39px;
   cursor: pointer;
 }
-.icon:hover{
+.icon:hover {
   fill: rgb(249, 239, 228);
 }
+.testimonials {
+  max-width: 1510px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.testimonials__bg {
+  width: 705px;
+  margin: 0;
+}
+.bg__imege {
+  width: 720px;
+  height: 490px;
+  margin: 0;
+  background: var(--color-hex);
+}
+.bg__imege_h2 {
+  padding-top: 116px;
+  padding-left: 120px;
+  padding-right: 82px;
+  font-family: Cardo;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 49px;
+}
+.bg__imege_h6 {
+  font-family: Raleway;
+  font-size: 13px;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+.dots {
+  max-width: 1425px;
+  height: 15px;
+  margin: 0 auto;
+  padding-top: 10px;
+  display: flex;
+  align-content: space-between;
+}
 
+.round-1 {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  border: 2px solid var(--color-hex);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.round-1:hover {
+  background: var(--color-hex);
+}
+.download {
+  max-width: 1510px;
+  height: 450px;
+  margin: 0 auto;
+}
+.download__content {
+  max-width: 1170;
+  padding-top: 115px;
+  color: var(--color-black);
+}
+.download__content-text {
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.download__content-title {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 150px;
+}
+.button {
+  margin: 0 auto;
+}
+.footer {
+  max-width: 1510px;
+  height: 340px;
+  background: var(--color-dark);
+}
+.aside {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.aside__block {
+  margin-top: 71px;
+  width: 370px;
+}
+.aside__block-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-white);
+  margin-bottom: 29px;
+}
 
+.aside__block-text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.copyright {
+  background-color: #2c3154;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.copyright__text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: var(--color-grey);
+  padding: 24px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.copyright__text-white {
+  color: var(--color-white);
+}

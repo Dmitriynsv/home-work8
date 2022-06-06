@@ -156,7 +156,7 @@
 .net {
   width: 120px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 2px;
   fill: var(--color-white);
 }

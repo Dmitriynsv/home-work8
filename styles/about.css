@@ -157,7 +157,7 @@
   display: flex;
   justify-content: center;
   gap: 2px;
-  fill: var(--color-white);
+  fill: none;
 }
 .icon {
   width: 39px;

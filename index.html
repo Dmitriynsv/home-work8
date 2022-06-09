@@ -36,7 +36,36 @@
               </li>
             </ul>
           </nav>
-        </header>
+
+          <input type="checkbox" id="burger_checkbox" class="input-burger" name="burger-input" id="">
+        <label for="burger_checkbox" class="burger__label">
+          <svg class="burger-icon">
+            <use href="assets/sprites.svg#burger" />
+          </svg>
+        </label>
+      <div class="burger__menu">
+        <label for="burger_checkbox" class="burger__close">x</label>
+        <nav>
+          <ul class="burger__menu-list">
+            <li class="burger__menu-item">
+              <a href="/" class="burger__menu-link">features</a>
+            </li>
+            <li class="burger__menu-item">
+              <a href="/" class="burger__menu-link">works</a>
+            </li>
+            <li class="burger__menu-item">
+              <a href="/" class="burger__menu-link">our team</a>
+            </li>
+            <li class="burger__menu-item">
+              <a href="/" class="burger__menu-link">testimonials</a>
+            </li>
+            <li class="burger__menu-item">
+              <a href="/" class="burger__menu-link">download</a>
+            </li>
+          </ul>
+        </nav>
+      </div> 
+      </header>
 
         <div class="about__content">
           <h1 class="about__title">
@@ -53,42 +82,118 @@
     </section>
   </body>
   <section class="features">
-    <div class="features_1">
-      <img src="assets/icons/features_1.svg" alt="" />
-    </div>
-    <div class="features_2">
-      <img src="assets/icons/features_2.svg" alt="" />
-    </div>
-    <div class="features_3">
-      <img src="assets/icons/features_3.svg" alt="" />
-    </div>
-    <div class="features_4">
-      <img src="assets/icons/features_4.svg" alt="" />
-    </div>
-    <div class="features_5">
-      <img src="assets/icons/features_5.svg" alt="" />
-    </div>
-    <div class="features_6">
-      <img src="assets/icons/features_6.svg" alt="" />
-    </div>
+    <div class="features__card">
+      <svg class="icon-features">
+        <use href="assets/sprites.svg#icon-1"></use>
+      </svg>
+      <h4 class="card__title">Easily Customised</h4>
+      <h5 class="card__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+  </div>
+  <div class="features__card">
+    <svg class="icon-features">
+        <use href="assets/sprites.svg#icon-2"></use>
+    </svg>
+    <h4 class="card__title">Responsive REady</h4>
+    <h5 class="card__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+        quis risus
+        eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+</div>
+<div class="features__card">
+  <svg class="icon-features">
+      <use href="assets/sprites.svg#icon-3"></use>
+  </svg>
+  <h4 class="card__title">Modern Design</h4>
+  <h5 class="card__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+</div>
+<div class="features__card">
+  <svg class="icon-features">
+      <use href="assets/sprites.svg#icon-4"></use>
+  </svg>
+  <h4 class="card__title">Clean Code</h4>
+  <h5 class="card__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+</div>
+<div class="features__card">
+  <svg class="icon-features">
+      <use href="assets/sprites.svg#icon-5"></use>
+  </svg>
+  <h4 class="card__title">Ready to Ship</h4>
+  <h5 class="card__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+</div>
+<div class="features__card">
+  <svg class="icon-features">
+      <use href="assets/sprites.svg#icon-6"></use>
+  </svg>
+  <h4 class="card__title">Download for Free</h4>
+  <h5 class="card__description">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam
+      quis risus
+      eget urna mollis ornare vel eu leo. Donec ullamcorper nulla non metus auctor fringilla.</h5>
+</div>
   </section>
 
-  <section class="work">
-    <div class="work_1"><img src="assets/icons/work_1.jpg" alt="" /></div>
-    <div class="work_2"><img src="assets/icons/work_2.jpg" alt="" /></div>
-    <div class="work_3"><img src="assets/icons/work_3.jpg" alt="" /></div>
-    <div class="work_4"><img src="assets/icons/work_4.jpg" alt="" /></div>
-    <div class="work_5"><img src="assets/icons/work_5.jpg" alt="" /></div>
-    <div class="work_6"><img src="assets/icons/work_6.jpg" alt="" /></div>
-    <div class="work_7"><img src="assets/icons/work_7.jpg" alt="" /></div>
-    <div class="work_8"><img src="assets/icons/work_8.jpg" alt="" /></div>
+  <section class="work" id="work">
+    <div class="gallery__img">
+      <a href="#" class="gallery__link">
+          <h4 class="gallery__link-title">Project Name</h4>
+          <h5 class="gallery__link-description">User Interface Design</h5>
+      </a>
+      <img class="foto" src="assets/icons/work_1.jpg" alt="work_1">
+  </div>
+  <div class="gallery__img">
+    <a href="#" class="gallery__link">
+        <h4 class="gallery__link-title">Project Name</h4>
+        <h5 class="gallery__link-description">User Interface Design</h5>
+    </a>
+    <img src="assets/icons/work_2.jpg" alt="work_2">
+</div>
+<div class="gallery__img">
+  <a href="#" class="gallery__link">
+      <h4 class="gallery__link-title">Project Name</h4>
+      <h5 class="gallery__link-description">User Interface Design</h5>
+  </a>
+  <img src="assets/icons/work_3.jpg" alt="work_3">
+</div>
+<div class="gallery__img">
+  <a href="#" class="gallery__link">
+      <h4 class="gallery__link-title">Project Name</h4>
+      <h5 class="gallery__link-description">User Interface Design</h5>
+  </a>
+  <img src="assets/icons/work_4.jpg" alt="work_4">
+</div>
+<div class="gallery__img">
+  <a href="#" class="gallery__link">
+      <h4 class="gallery__link-title">Project Name</h4>
+      <h5 class="gallery__link-description">User Interface Design</h5>
+  </a>
+  <img src="assets/icons/work_5.jpg" alt="work_5">
+</div>
+<div class="gallery__img">
+  <a href="#" class="gallery__link">
+      <h4 class="gallery__link-title">Project Name</h4>
+      <h5 class="gallery__link-description">User Interface Design</h5>
+  </a>
+  <img src="assets/icons/work_6.jpg" alt="work_6">
+</div>
+<div class="gallery__img">
+  <a href="#" class="gallery__link">
+      <h4 class="gallery__link-title">Project Name</h4>
+      <h5 class="gallery__link-description">User Interface Design</h5>
+  </a>
+  <img src="assets/icons/work_7.jpg" alt="work_7">
+</div>
+<div class="gallery__img">
+  <a href="#" class="gallery__link">
+      <h4 class="gallery__link-title">Project Name</h4>
+      <h5 class="gallery__link-description">User Interface Design</h5>
+  </a>
+  <img src="assets/icons/work_8.jpg" alt="work_8">
+</div>
   </section>
 
   <section class="team" id="team">
         <div class="person_card">
           <img
             class="person_card_1-img"
-            src="assets/icons/Rectangle 24.jpg"
+            src="/assets/icons/Rectangle 24.jpg"
             alt="foto"
           />
           <h4 class="name_card-name">Ruth woods</h4>
@@ -101,14 +206,14 @@
           </p>
           <div class="net">
             <svg class="icon">
-              <use href="sprites.svg#facebook"></use>
+              <use href="assets/sprites.svg#facebook"></use>
               <a href="https://facebook.com" target="_blank"></a>></a>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#linkebin"></use>
+              <use href="assets/sprites.svg#linkebin"></use>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#twitter"></use>
+              <use href="assets/sprites.svg#twitter"></use>
             </svg>
           </div>
         </div>
@@ -118,7 +223,7 @@
         
           <img
             class="person_card_2-img"
-            src="assets/icons/Rectangle 25.jpg"
+            src="/assets/icons/Rectangle 25.jpg"
             alt="foto"
           />
           <h4 class="name_card-name">Timothy Reed</h4>
@@ -131,13 +236,13 @@
           </p>
           <div class="net">
             <svg class="icon">
-              <use href="sprites.svg#facebook"></use>
+              <use href="assets/sprites.svg#facebook"></use>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#linkebin"></use>
+              <use href="assets/sprites.svg#linkebin"></use>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#twitter"></use>
+              <use href="assets/sprites.svg#twitter"></use>
             </svg>
           </div>
         </div>
@@ -145,7 +250,7 @@
       <div class="person_card">
           <img
             class="person_card_1-img"
-            src="assets/icons/Rectangle 26.jpg"
+            src="/assets/icons/Rectangle 26.jpg"
             alt="foto"
           />
           <h4 class="name_card-name">Victoria Vladez</h4>
@@ -158,13 +263,13 @@
           </p>
           <div class="net">
             <svg class="icon">
-              <use href="sprites.svg#facebook"></use>
+              <use href="assets/sprites.svg#facebook"></use>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#linkebin"></use>
+              <use href="assets/sprites.svg#linkebin"></use>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#twitter"></use>
+              <use href="assets/sprites.svg#twitter"></use>
             </svg>
           </div>
         </div>
@@ -172,7 +277,7 @@
       <div class="person_card">
           <img
             class="person_card_1-img"
-            src="assets/icons/Rectangle 27.jpg"
+            src="/assets/icons/Rectangle 27.jpg"
             alt="foto"
           />
           <h4 class="name_card-name">Beverly Little</h4>
@@ -185,20 +290,21 @@
           </p>
           <div class="net">
             <svg class="icon">
-              <use href="sprites.svg#facebook"></use>
+              <use href="assets/sprites.svg#facebook"></use>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#linkebin"></use>
+              <use href="assets/sprites.svg#linkebin"></use>
             </svg>
             <svg class="icon">
-              <use href="sprites.svg#twitter"></use>
+              <use href="assets/sprites.svg#twitter"></use>
             </svg>
           </div>
         </div>
       </div>
     </section>
   <section class="testimonials">
-    <div class="testimonials__bg"><img src="assets/icons/bg.jpg" alt=""></div>
+    <div class="testimonials__bg" id="testimonials__bg">
+      <img src="assets/icons/bg.jpg" alt="" class="testimonials__bg"></div>
   <div class="bg__imege">
     <h2 class="bg__imege_h2">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</h2>
     <h6 class="bg__imege_h6">Susan Sims, Interaction Designer at XYZ</h6>
@@ -235,13 +341,13 @@
     
         <div class="net">
           <svg class="icon">
-            <use href="sprites.svg#facebook"></use>
+            <use href="assets/sprites.svg#facebook"></use>
           </svg>
           <svg class="icon">
-            <use href="sprites.svg#linkebin"></use>
+            <use href="assets/sprites.svg#linkebin"></use>
           </svg>
           <svg class="icon">
-            <use href="sprites.svg#twitter"></use>
+            <use href="assets/sprites.svg#twitter"></use>
           </svg>
         </div>
     </div>

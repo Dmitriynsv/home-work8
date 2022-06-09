@@ -150,7 +150,7 @@
   transform: translateX(0);
 }
 .features {
-  max-width: 1171px;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 75px;
   display: flex;

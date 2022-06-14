@@ -215,7 +215,7 @@
   row-gap: 4px;
 }
 .gallery__img {
-  max-width: 356px;
+  max-width: 347px;
   max-height: 340px;
   position: relative;
 }
@@ -225,7 +225,7 @@
   opacity: 0;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 108%;
   height: 100%;
   background-color: var(--color-coral);
   transition: all 0.3s;

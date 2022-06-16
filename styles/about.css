@@ -274,7 +274,6 @@
 .net {
   width: 120px;
   display: flex;
-  justify-content: center;
   gap: 2px;
   fill: none;
 }

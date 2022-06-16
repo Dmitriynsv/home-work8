@@ -404,9 +404,10 @@
   width: 370px;
 }
 .net-footer {
-  width: 120px;
-  display: flex;
-  fill: none;
+    max-width: 370 px;
+    display: flex;
+    justify-content: center;
+    fill: none;
 }
 .aside__block-title {
   font-family: "Raleway";

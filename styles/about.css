@@ -304,7 +304,7 @@
 }
 
 .slide__img {
-	background: url('../bg.jpg') center/cover no-repeat;
+        background: url('../assets/icons/bg.jpg') center/cover no-repeat;
 	flex-basis: 50%;
 	width: 50vw;
 	height: 490px;

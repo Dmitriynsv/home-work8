@@ -403,6 +403,11 @@
   margin-top: 71px;
   width: 370px;
 }
+.net-footer {
+  width: 120px;
+  display: flex;
+  fill: none;
+}
 .aside__block-title {
   font-family: "Raleway";
   font-style: normal;

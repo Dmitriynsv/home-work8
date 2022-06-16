@@ -21,6 +21,7 @@
 
 .header__nav-list {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   height: 100%;
   margin: 0;
